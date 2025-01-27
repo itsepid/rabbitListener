@@ -1,0 +1,17 @@
+C:\Users\s.tajik\Desktop\consumer\client\bin\Debug\net9.0\Client.exe
+C:\Users\s.tajik\Desktop\consumer\client\bin\Debug\net9.0\Client.deps.json
+C:\Users\s.tajik\Desktop\consumer\client\bin\Debug\net9.0\Client.runtimeconfig.json
+C:\Users\s.tajik\Desktop\consumer\client\bin\Debug\net9.0\Client.dll
+C:\Users\s.tajik\Desktop\consumer\client\bin\Debug\net9.0\Client.pdb
+C:\Users\s.tajik\Desktop\consumer\client\bin\Debug\net9.0\RabbitMQ.Client.dll
+C:\Users\s.tajik\Desktop\consumer\client\obj\Debug\net9.0\Client.csproj.AssemblyReference.cache
+C:\Users\s.tajik\Desktop\consumer\client\obj\Debug\net9.0\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s.tajik\Desktop\consumer\client\obj\Debug\net9.0\Client.AssemblyInfoInputs.cache
+C:\Users\s.tajik\Desktop\consumer\client\obj\Debug\net9.0\Client.AssemblyInfo.cs
+C:\Users\s.tajik\Desktop\consumer\client\obj\Debug\net9.0\Client.csproj.CoreCompileInputs.cache
+C:\Users\s.tajik\Desktop\consumer\client\obj\Debug\net9.0\Client.csproj.Up2Date
+C:\Users\s.tajik\Desktop\consumer\client\obj\Debug\net9.0\Client.dll
+C:\Users\s.tajik\Desktop\consumer\client\obj\Debug\net9.0\refint\Client.dll
+C:\Users\s.tajik\Desktop\consumer\client\obj\Debug\net9.0\Client.pdb
+C:\Users\s.tajik\Desktop\consumer\client\obj\Debug\net9.0\Client.genruntimeconfig.cache
+C:\Users\s.tajik\Desktop\consumer\client\obj\Debug\net9.0\ref\Client.dll
