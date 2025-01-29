@@ -15,3 +15,4 @@ C:\Users\s.tajik\Desktop\consumer\client\obj\Debug\net9.0\refint\Client.dll
 C:\Users\s.tajik\Desktop\consumer\client\obj\Debug\net9.0\Client.pdb
 C:\Users\s.tajik\Desktop\consumer\client\obj\Debug\net9.0\Client.genruntimeconfig.cache
 C:\Users\s.tajik\Desktop\consumer\client\obj\Debug\net9.0\ref\Client.dll
+C:\Users\s.tajik\Desktop\consumer\Client\obj\Debug\net9.0\Client.sourcelink.json

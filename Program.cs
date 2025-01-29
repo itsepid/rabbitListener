@@ -18,10 +18,18 @@ class Program
         using var channel = connection.CreateModel();
 
         channel.ExchangeDeclare(exchange: "config_exchange", type: ExchangeType.Topic, durable: true);
-        channel.QueueDeclare(queue: "config_updates_queue", durable: true, exclusive: false, autoDelete: false);
-        channel.QueueBind(queue: "config_updates_queue", exchange: "config_exchange", routingKey: "config.#");
 
-        Console.WriteLine("Waiting for messages...");
+        
+        string projectId = "1";  
+        string queueName = $"config_updates_queue_{projectId}";
+
+        channel.QueueDeclare(queue: queueName, durable: true, exclusive: false, autoDelete: false);
+
+
+        string routingKey = $"config.{projectId}.#";
+        channel.QueueBind(queue: queueName, exchange: "config_exchange", routingKey: routingKey);
+
+        Console.WriteLine($"Waiting for messages for Project ID {projectId}...");
 
         var consumer = new EventingBasicConsumer(channel);
         consumer.Received += (model, ea) =>
@@ -29,11 +37,10 @@ class Program
             var body = ea.Body.ToArray();
             var message = Encoding.UTF8.GetString(body);
 
-            Console.WriteLine($"Received message: {message}");
-            
+            Console.WriteLine($"Received message for Project {projectId}: {message}");
         };
 
-        channel.BasicConsume(queue: "config_updates_queue", autoAck: true, consumer: consumer);
+        channel.BasicConsume(queue: queueName, autoAck: true, consumer: consumer);
 
         Console.ReadLine();
     }
